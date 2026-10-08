@@ -1,10 +1,10 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Events;
+namespace Risqid\AttendanceEngine\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Unwahas\AttendanceEngine\Models\AttendanceRecord;
+use Risqid\AttendanceEngine\Models\AttendanceRecord;
 
 class AttendanceRecorded
 {

@@ -72,11 +72,11 @@ Host applications implement contracts to integrate domain logic:
 
 | Contract | Purpose |
 | :--- | :--- |
-| `Unwahas\AttendanceEngine\Contracts\ParticipantResolver` | Resolves authenticated user to participant identity. |
-| `Unwahas\AttendanceEngine\Contracts\EligibilityResolver` | Verifies whether a participant is authorized for the session. |
-| `Unwahas\AttendanceEngine\Contracts\LocationPolicy` | Validates client IP or GPS coordinates against location rules. |
-| `Unwahas\AttendanceEngine\Contracts\AttendanceContext` | Optional host model representation for attendance context. |
-| `Unwahas\AttendanceEngine\Contracts\AttendanceParticipant` | Optional host model representation for participants. |
+| `Risqid\AttendanceEngine\Contracts\ParticipantResolver` | Resolves authenticated user to participant identity. |
+| `Risqid\AttendanceEngine\Contracts\EligibilityResolver` | Verifies whether a participant is authorized for the session. |
+| `Risqid\AttendanceEngine\Contracts\LocationPolicy` | Validates client IP or GPS coordinates against location rules. |
+| `Risqid\AttendanceEngine\Contracts\AttendanceContext` | Optional host model representation for attendance context. |
+| `Risqid\AttendanceEngine\Contracts\AttendanceParticipant` | Optional host model representation for participants. |
 
 ---
 
@@ -85,7 +85,7 @@ Host applications implement contracts to integrate domain logic:
 ### 1. Creating a Session
 
 ```php
-use Unwahas\AttendanceEngine\Services\AttendanceSessionService;
+use Risqid\AttendanceEngine\Services\AttendanceSessionService;
 
 $sessionService = app(AttendanceSessionService::class);
 
@@ -110,7 +110,7 @@ $session = $sessionService->createFromContext([
 ### 2. Generating Dynamic QR Challenge
 
 ```php
-use Unwahas\AttendanceEngine\Services\AttendanceQrService;
+use Risqid\AttendanceEngine\Services\AttendanceQrService;
 
 $qrService = app(AttendanceQrService::class);
 
@@ -122,8 +122,8 @@ $payload = $challenge->payload;
 ### 3. Scanning and Recording Attendance
 
 ```php
-use Unwahas\AttendanceEngine\Services\AttendanceScanService;
-use Unwahas\AttendanceEngine\Data\ScanRequestData;
+use Risqid\AttendanceEngine\Services\AttendanceScanService;
+use Risqid\AttendanceEngine\Data\ScanRequestData;
 
 $scanService = app(AttendanceScanService::class);
 
@@ -144,7 +144,7 @@ if ($result->isSuccess()) {
 ### 4. Listening to Attendance Events
 
 ```php
-use Unwahas\AttendanceEngine\Events\AttendanceRecorded;
+use Risqid\AttendanceEngine\Events\AttendanceRecorded;
 
 Event::listen(AttendanceRecorded::class, function (AttendanceRecorded $event) {
     $record = $event->record;

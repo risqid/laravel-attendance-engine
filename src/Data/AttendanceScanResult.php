@@ -1,8 +1,8 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Data;
+namespace Risqid\AttendanceEngine\Data;
 
-use Unwahas\AttendanceEngine\Models\AttendanceRecord;
+use Risqid\AttendanceEngine\Models\AttendanceRecord;
 
 class AttendanceScanResult
 {

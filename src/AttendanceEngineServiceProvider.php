@@ -1,12 +1,12 @@
 <?php
 
-namespace Unwahas\AttendanceEngine;
+namespace Risqid\AttendanceEngine;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Unwahas\AttendanceEngine\Contracts\EligibilityResolver;
-use Unwahas\AttendanceEngine\Contracts\LocationPolicy;
-use Unwahas\AttendanceEngine\Contracts\ParticipantResolver;
+use Risqid\AttendanceEngine\Contracts\EligibilityResolver;
+use Risqid\AttendanceEngine\Contracts\LocationPolicy;
+use Risqid\AttendanceEngine\Contracts\ParticipantResolver;
 
 class AttendanceEngineServiceProvider extends ServiceProvider
 {

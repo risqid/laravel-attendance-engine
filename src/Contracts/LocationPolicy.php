@@ -1,9 +1,9 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Contracts;
+namespace Risqid\AttendanceEngine\Contracts;
 
-use Unwahas\AttendanceEngine\Data\LocationValidationResult;
-use Unwahas\AttendanceEngine\Models\AttendanceSession;
+use Risqid\AttendanceEngine\Data\LocationValidationResult;
+use Risqid\AttendanceEngine\Models\AttendanceSession;
 
 interface LocationPolicy
 {

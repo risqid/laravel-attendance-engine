@@ -1,10 +1,10 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Services;
+namespace Risqid\AttendanceEngine\Services;
 
 use Illuminate\Http\Request;
-use Unwahas\AttendanceEngine\Contracts\AttendanceParticipant;
-use Unwahas\AttendanceEngine\Contracts\ParticipantResolver;
+use Risqid\AttendanceEngine\Contracts\AttendanceParticipant;
+use Risqid\AttendanceEngine\Contracts\ParticipantResolver;
 
 class NullParticipantResolver implements ParticipantResolver
 {

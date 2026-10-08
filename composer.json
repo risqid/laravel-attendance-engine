@@ -16,18 +16,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Unwahas\\AttendanceEngine\\": "src/"
+            "Risqid\\AttendanceEngine\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Unwahas\\AttendanceEngine\\Tests\\": "tests/"
+            "Risqid\\AttendanceEngine\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Unwahas\\AttendanceEngine\\AttendanceEngineServiceProvider"
+                "Risqid\\AttendanceEngine\\AttendanceEngineServiceProvider"
             ]
         }
     },

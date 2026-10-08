@@ -1,19 +1,19 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Services;
+namespace Risqid\AttendanceEngine\Services;
 
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 use InvalidArgumentException;
-use Unwahas\AttendanceEngine\Contracts\EligibilityResolver;
-use Unwahas\AttendanceEngine\Contracts\LocationPolicy;
-use Unwahas\AttendanceEngine\Contracts\ParticipantResolver;
-use Unwahas\AttendanceEngine\Data\AttendanceScanResult;
-use Unwahas\AttendanceEngine\Data\ScanRequestData;
-use Unwahas\AttendanceEngine\Enums\AttendanceAction;
-use Unwahas\AttendanceEngine\Events\AttendanceRecorded;
-use Unwahas\AttendanceEngine\Models\AttendanceRecord;
+use Risqid\AttendanceEngine\Contracts\EligibilityResolver;
+use Risqid\AttendanceEngine\Contracts\LocationPolicy;
+use Risqid\AttendanceEngine\Contracts\ParticipantResolver;
+use Risqid\AttendanceEngine\Data\AttendanceScanResult;
+use Risqid\AttendanceEngine\Data\ScanRequestData;
+use Risqid\AttendanceEngine\Enums\AttendanceAction;
+use Risqid\AttendanceEngine\Events\AttendanceRecorded;
+use Risqid\AttendanceEngine\Models\AttendanceRecord;
 
 class AttendanceScanService
 {

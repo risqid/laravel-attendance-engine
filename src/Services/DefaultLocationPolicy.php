@@ -1,11 +1,11 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Services;
+namespace Risqid\AttendanceEngine\Services;
 
-use Unwahas\AttendanceEngine\Contracts\AttendanceParticipant;
-use Unwahas\AttendanceEngine\Contracts\LocationPolicy;
-use Unwahas\AttendanceEngine\Data\LocationValidationResult;
-use Unwahas\AttendanceEngine\Models\AttendanceSession;
+use Risqid\AttendanceEngine\Contracts\AttendanceParticipant;
+use Risqid\AttendanceEngine\Contracts\LocationPolicy;
+use Risqid\AttendanceEngine\Data\LocationValidationResult;
+use Risqid\AttendanceEngine\Models\AttendanceSession;
 
 class DefaultLocationPolicy implements LocationPolicy
 {

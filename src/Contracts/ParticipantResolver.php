@@ -1,6 +1,6 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Contracts;
+namespace Risqid\AttendanceEngine\Contracts;
 
 use Illuminate\Http\Request;
 

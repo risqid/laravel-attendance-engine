@@ -1,6 +1,6 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Data;
+namespace Risqid\AttendanceEngine\Data;
 
 class QrChallenge
 {

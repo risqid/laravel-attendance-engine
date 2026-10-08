@@ -1,10 +1,10 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Services;
+namespace Risqid\AttendanceEngine\Services;
 
-use Unwahas\AttendanceEngine\Contracts\AttendanceParticipant;
-use Unwahas\AttendanceEngine\Contracts\EligibilityResolver;
-use Unwahas\AttendanceEngine\Models\AttendanceSession;
+use Risqid\AttendanceEngine\Contracts\AttendanceParticipant;
+use Risqid\AttendanceEngine\Contracts\EligibilityResolver;
+use Risqid\AttendanceEngine\Models\AttendanceSession;
 
 class DenyAllEligibilityResolver implements EligibilityResolver
 {

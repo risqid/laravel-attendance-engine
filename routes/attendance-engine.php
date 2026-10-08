@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Unwahas\AttendanceEngine\Http\Controllers\AttendanceChallengeController;
-use Unwahas\AttendanceEngine\Http\Controllers\AttendanceScanController;
+use Risqid\AttendanceEngine\Http\Controllers\AttendanceChallengeController;
+use Risqid\AttendanceEngine\Http\Controllers\AttendanceScanController;
 
 Route::get('/sessions/{session}/challenge', AttendanceChallengeController::class)
     ->middleware('throttle:120,1');

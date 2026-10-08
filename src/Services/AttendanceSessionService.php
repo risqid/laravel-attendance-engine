@@ -1,9 +1,9 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Services;
+namespace Risqid\AttendanceEngine\Services;
 
-use Unwahas\AttendanceEngine\Contracts\AttendanceContext;
-use Unwahas\AttendanceEngine\Models\AttendanceSession;
+use Risqid\AttendanceEngine\Contracts\AttendanceContext;
+use Risqid\AttendanceEngine\Models\AttendanceSession;
 
 class AttendanceSessionService
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Services;
+namespace Risqid\AttendanceEngine\Services;
 
 use Carbon\CarbonInterface;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Carbon;
 use InvalidArgumentException;
-use Unwahas\AttendanceEngine\Data\QrChallenge;
-use Unwahas\AttendanceEngine\Enums\AttendanceAction;
-use Unwahas\AttendanceEngine\Models\AttendanceSession;
+use Risqid\AttendanceEngine\Data\QrChallenge;
+use Risqid\AttendanceEngine\Enums\AttendanceAction;
+use Risqid\AttendanceEngine\Models\AttendanceSession;
 
 class AttendanceQrService
 {

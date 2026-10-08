@@ -1,10 +1,10 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Services;
+namespace Risqid\AttendanceEngine\Services;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Collection;
-use Unwahas\AttendanceEngine\Models\AttendanceRecord;
+use Risqid\AttendanceEngine\Models\AttendanceRecord;
 
 class AttendanceRecordService
 {

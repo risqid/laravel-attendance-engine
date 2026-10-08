@@ -1,12 +1,12 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Http\Controllers;
+namespace Risqid\AttendanceEngine\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use InvalidArgumentException;
-use Unwahas\AttendanceEngine\Services\AttendanceQrService;
+use Risqid\AttendanceEngine\Services\AttendanceQrService;
 
 class AttendanceChallengeController extends Controller
 {

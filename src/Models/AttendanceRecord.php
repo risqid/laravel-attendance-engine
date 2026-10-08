@@ -1,6 +1,6 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Models;
+namespace Risqid\AttendanceEngine\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;

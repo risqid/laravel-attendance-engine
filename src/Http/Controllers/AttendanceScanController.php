@@ -1,12 +1,12 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Http\Controllers;
+namespace Risqid\AttendanceEngine\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Unwahas\AttendanceEngine\Data\ScanRequestData;
-use Unwahas\AttendanceEngine\Services\AttendanceScanService;
+use Risqid\AttendanceEngine\Data\ScanRequestData;
+use Risqid\AttendanceEngine\Services\AttendanceScanService;
 
 class AttendanceScanController extends Controller
 {

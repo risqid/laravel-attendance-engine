@@ -1,6 +1,6 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Enums;
+namespace Risqid\AttendanceEngine\Enums;
 
 enum AttendanceAction: string
 {

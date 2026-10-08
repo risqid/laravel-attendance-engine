@@ -21,13 +21,13 @@ return [
     ],
 
     'models' => [
-        'session' => Unwahas\AttendanceEngine\Models\AttendanceSession::class,
-        'record' => Unwahas\AttendanceEngine\Models\AttendanceRecord::class,
+        'session' => Risqid\AttendanceEngine\Models\AttendanceSession::class,
+        'record' => Risqid\AttendanceEngine\Models\AttendanceRecord::class,
     ],
 
     'contracts' => [
-        'participant_resolver' => Unwahas\AttendanceEngine\Services\NullParticipantResolver::class,
-        'eligibility_resolver' => Unwahas\AttendanceEngine\Services\DenyAllEligibilityResolver::class,
-        'location_policy' => Unwahas\AttendanceEngine\Services\DefaultLocationPolicy::class,
+        'participant_resolver' => Risqid\AttendanceEngine\Services\NullParticipantResolver::class,
+        'eligibility_resolver' => Risqid\AttendanceEngine\Services\DenyAllEligibilityResolver::class,
+        'location_policy' => Risqid\AttendanceEngine\Services\DefaultLocationPolicy::class,
     ],
 ];

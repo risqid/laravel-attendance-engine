@@ -1,8 +1,8 @@
 <?php
 
-namespace Unwahas\AttendanceEngine\Contracts;
+namespace Risqid\AttendanceEngine\Contracts;
 
-use Unwahas\AttendanceEngine\Models\AttendanceSession;
+use Risqid\AttendanceEngine\Models\AttendanceSession;
 
 interface EligibilityResolver
 {
