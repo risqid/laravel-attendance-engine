@@ -13,7 +13,7 @@ return [
 
     'defaults' => [
         'qr_rotation_seconds' => 10,
-        'qr_grace_windows' => 1,
+        'qr_grace_windows' => 0,
     ],
 
     'rules' => [

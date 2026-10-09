@@ -25,7 +25,7 @@ class AttendanceSessionService
             'action_windows' => $options['action_windows'] ?? null,
             'status' => $options['status'] ?? 'draft',
             'qr_rotation_seconds' => $options['qr_rotation_seconds'] ?? config('attendance-engine.defaults.qr_rotation_seconds', 10),
-            'qr_grace_windows' => $options['qr_grace_windows'] ?? config('attendance-engine.defaults.qr_grace_windows', 1),
+            'qr_grace_windows' => $options['qr_grace_windows'] ?? config('attendance-engine.defaults.qr_grace_windows', 0),
             'location_required' => $options['location_required'] ?? false,
             'location_policy' => $options['location_policy'] ?? null,
             'metadata' => !empty($metadata) ? $metadata : null,

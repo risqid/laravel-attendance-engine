@@ -20,7 +20,7 @@ return new class extends Migration
             $table->json('action_windows')->nullable();
             $table->string('status')->default('draft');
             $table->unsignedSmallInteger('qr_rotation_seconds')->default(10);
-            $table->unsignedTinyInteger('qr_grace_windows')->default(1);
+            $table->unsignedTinyInteger('qr_grace_windows')->default(0);
             $table->boolean('location_required')->default(false);
             $table->json('location_policy')->nullable();
             $table->json('metadata')->nullable();
